@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TICKET</title>
+</head>
+<body>
+    <p id="shakir">STATUS</p>
+    <button id="idrees" onclick="ticket()">SUBMIT</button>
+    <script>
+        function ticket(){
+
+        
+        let value= prompt("solve this 20-10");
+        if(value==10){
+            /*alert("ticket booked")*/
+            document.getElementById('shakir').innerHTML="<H1>ticket booked</H1>"
+        }
+        else{
+            /*alert("ticket cancel")*/
+            document.getElementById('shakir').innerHTML="<h1>ticket cancel</h1>"
+        }
+    }
+    </script>
+</body>
+</html>
